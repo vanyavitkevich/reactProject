@@ -1,0 +1,16 @@
+.about{
+    &__main{
+        padding-left: 32px;
+        margin-bottom: 70px;
+        background: transparent;
+        border-left: 2px solid #f62459;
+        text-align: left;
+        width: 60%;
+    }
+    &__p{
+        font-size: 20px;
+        line-height: 1.1;
+        letter-spacing: 1.1px;
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,55 @@
+.review__item{
+    &__img{
+        width: 300px;
+        height: 300px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h2{
+        color: #414041!important;
+        font-size: 20px!important;
+        padding: 0!important;
+        padding-top: 24px!important;
+        padding-bottom: 14px!important;
+        border-bottom: 2px solid #f62459!important;
+        text-align: center!important;
+        text-transform: none!important;
+        width: auto!important;
+    }
+    p{
+        sup, sub{
+            color: #cacbd1;
+            font-size: 30px;
+            line-height: 0.2;
+        }
+        transform: translateX(-22%);
+        padding-top: 32px;
+        font-size: 18px;
+        font-style: italic;
+        color: #414041;
+        width: 180%;
+        text-align: center;
+    }
+}
+
+#review__item-0{
+    background-image: url(../../img/slides2/slider11.jpg);
+}
+#review__item-1{
+    background-image: url(../../img/slides2/slider12.jpg);
+}
+#review__item-2{
+    background-image: url(../../img/slides2/slider13.jpg);
+}
+#review__item-3{
+    background-image: url(../../img/slides2/slider11.jpg);
+}
+#review__item-4{
+    background-image: url(../../img/slides2/slider12.jpg);
+}
+#review__item-5{
+    background-image: url(../../img/slides2/slider13.jpg);
+}

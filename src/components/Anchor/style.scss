@@ -1,0 +1,18 @@
+.header{
+    &__link{
+        margin: 0 20px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid transparent;
+        transition: 0.3s ease all;
+        cursor: pointer;
+        &:hover{
+            border-bottom: 1px solid #ffffff;
+        }
+    }
+    &__anchor{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 12px;
+        letter-spacing: 0.8px;
+    }
+}

@@ -1,0 +1,50 @@
+.portfolio__item{
+    height: 430px;
+    width: 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &::before{
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+    }
+}
+
+#card-0{
+    background-image: url(../../img/portfolio.png);
+    &::before{
+        background: #000;
+    }
+}
+#card-1{
+    background-image: url(../../img/portfolio.png);
+    &::before{
+        background: rgb(206, 34, 34);
+    }
+}
+#card-2{
+    background-image: url(../../img/portfolio.png);
+    &::before{
+        background: rgb(43, 119, 20);
+    }
+}
+#card-3{
+    background-image: url(../../img/portfolio.png);
+    &::before{
+        background: rgb(23, 7, 116);
+    }
+}
+#card-4{
+    background-image: url(../../img/portfolio.png);
+    &::before{
+        background: rgb(94, 14, 54);
+    }
+}
+#card-5{
+    background-image: url(../../img/portfolio.png);
+    &::before{
+        background: rgb(255, 255, 255);
+    }
+}
